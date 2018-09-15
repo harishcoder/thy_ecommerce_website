@@ -1,0 +1,119 @@
+$primary-color:#008ed6;
+
+.navbar{
+    border-bottom: $primary-color 2px solid;
+    opacity:0.9;
+}
+
+#searchBar{
+    
+    form{
+        margin: 0 200px;
+        input{
+            width:600px;
+        }
+    }
+}
+#corusel{
+    img{
+        height:500px;
+    }
+}
+hr{
+    margin:0;
+    padding: 0;
+}
+h2{
+    margin: 0;
+    box-shadow: 2px 2px 15px rgba(0,0,0,.5);
+}
+.card{
+    box-shadow: 2px 2px 15px rgba(0,0,0,.5);
+}
+
+.slick-prev:before,
+.slick-next:before
+{
+    color:black !important;
+}
+
+#productPackages{
+    margin-top:100px;
+}
+
+.buttons{
+    margin:0;
+    .col-md-6{
+        padding: 0px;
+        a{
+            padding:15px 15px;
+            cursor: pointer;
+            border-radius: 0;
+            display: block;
+        }
+        .color1{
+            background-color: #4286f4;
+        }
+    }
+}
+
+.card-body{
+    padding:10px;
+}
+
+.testsButton{
+    a{
+        padding:10px 20px;
+        border-radius: 0;
+        display: block;
+        cursor: pointer;
+       
+    }
+    .color{
+        background-color: #4286f4;
+    
+    }
+}
+
+.buttonHome{
+   margin:0;
+    .col-md-6{
+        padding:0px;
+        a{
+            padding:15px 5px;
+            border-radius:0;
+            display: block;
+            cursor: pointer;
+        }
+        .color1{
+            background-color: #4286f4;
+        }
+    }
+
+}
+
+.testButtonHome{
+    a{
+        padding:10px 20px;
+        border-radius: 0;
+        display: block;
+       
+    }
+    .color{
+        background-color: #4286f4;
+    
+    }
+}
+
+.benInline{
+    display: flex;
+    flex-direction: row;
+}
+form{
+    .radio{
+        input{
+            width:10%;
+            margin: 7px;
+        }
+    }
+}
